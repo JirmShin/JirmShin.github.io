@@ -11,7 +11,41 @@ layout: default
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
-
+<!-- 애드센스 광고 2개 코드 시작 -->
+<div style="text-align: center; margin-bottom: 15px;">
+  <style>
+  .adsbygoogle.organic-adsense1 {display:block;}
+  .adsbygoogle.organic-adsense2 {display:none}
+    
+  @media (min-width: 680px) {
+  .adsbygoogle.organic-adsense1 {display:inline-block;min-width:300px;max-width:300px;width:100%;height:250px;}
+  .adsbygoogle.organic-adsense2 {display:inline-block;margin-left:20px;min-width:300px;max-width:300px;width:100%;height:250px;}
+  }
+  
+  @media (min-width: 768px) {
+  .adsbygoogle.organic-adsense1 {display:inline-block;min-width:336px;max-width:336px;width:100%;height:280px;}
+  .adsbygoogle.organic-adsense2 {display:inline-block;min-width:336px;max-width:336px;width:100%;height:280px;}
+  }
+  </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle organic-adsense1"
+       data-ad-client="ca-pub-6229870969285528"
+       data-ad-slot="7224347923"
+       data-ad-format="rectangle"
+       data-full-width-responsive="true"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  <ins class="adsbygoogle organic-adsense2"
+       data-ad-client="ca-pub-6229870969285528"
+       data-ad-slot="3404027574"
+       data-ad-format="rectangle"
+       data-full-width-responsive="true"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  </div>
+  <!-- 애드센스 광고 2개 코드 끝 -->
   <section class="post">
     {{ content }}
   </section>
