@@ -4,6 +4,7 @@ Allow: /
 
 Disallow: /norobots/
 
-Sitemap: https://JirmShin.github.io/sitemap.xml
+Sitemap: https://JirmShin.github.io/sitemap.xml, 
+Sitemap: https://good.haedory.com/sitemap.xml
 
 #DaumWebMasterTool:03d41bcbcba8c568a278317f4fcaa1ba38e9b541512a766881e2e075e2938970:qhkgLD0FlGjdMmNRxDlMLA==
