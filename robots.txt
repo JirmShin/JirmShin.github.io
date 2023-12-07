@@ -8,3 +8,4 @@ Sitemap: https://JirmShin.github.io/sitemap.xml,
 Sitemap: https://good.haedory.com/sitemap.xml
 
 #DaumWebMasterTool:03d41bcbcba8c568a278317f4fcaa1ba38e9b541512a766881e2e075e2938970:qhkgLD0FlGjdMmNRxDlMLA==
+#DaumWebMasterTool:2585b2b2862af77f524f6fab06b6f94742ca4a7e5889c74656c48d7f9cbcf8b6:twseVWWXMBc3GMZK8OKsUQ==
