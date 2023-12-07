@@ -33,7 +33,7 @@ pre.highlight code,
   border-radius: 20px;
   color: #e25440;
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   margin: 5px 0;
   padding: 5px 10px;
   text-shadow: none;
@@ -41,7 +41,7 @@ pre.highlight code,
 }
 
 .post-meta__tags {
-  font-size: 12px;
+  font-size: 13px;
   padding: 0 5px;
 }
 
@@ -56,4 +56,18 @@ pre.highlight code,
   height: 100px;
   border: 3px solid #fff;
   border-radius:100%;
+}
+/* 본문 이미지에 음영 효과 적용하기 */
+
+
+img:hover {
+	transform: scale(1.03);
+	box-shadow: 0.2em 0.15em 0.3em #999;
+	transition: all 0.1s linear;
+}
+
+button:hover {
+	transform: scale(1.03);
+	box-shadow: 0.2em 0.15em 0.3em #999;
+	transition: all 0.1s linear;
 }
