@@ -11,6 +11,9 @@ layout: default
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
+  <center><script async src="https://cse.google.com/cse.js?cx=b6ea43f866251410f">
+  </script>
+  <div class="gcse-search"></div></center>
   <div>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6229870969285528"
          crossorigin="anonymous"></script>
@@ -30,5 +33,8 @@ layout: default
     {{ content }}
   </section>
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+  <center><script async src="https://cse.google.com/cse.js?cx=b6ea43f866251410f">
+  </script>
+  <div class="gcse-search"></div></center>
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}
